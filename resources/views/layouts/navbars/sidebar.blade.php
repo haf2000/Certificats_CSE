@@ -81,12 +81,12 @@
             <ul class="navbar-nav">
                 <li class="nav-item">
                     <a class="nav-link" href="{{ route('home') }}">
-                        <i class="ni ni-tv-2 text-primary"></i> {{ __('View dashboard') }}
+                        <i class="ni ni-tv-2 text-success"></i> {{ __('Dashboard') }}
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link active" href="#navbar-examples" data-toggle="collapse" role="button" aria-expanded="true" aria-controls="navbar-examples">
-                        <i class="fab fa-user" style="color: #f4645f;"></i>
+                    <i class="ni ni-circle-08 text-pink"></i>
                         <span class="nav-link-text" style="color: #f4645f;">
                         {{ __('Admin') }}
                         <!--{{ __('Laravel Examples') }} --></span>
@@ -115,17 +115,20 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">
-                        <i class="ni ni-pin-3 text-orange"></i> Generate certificates
+                    <i class="fas fa-certificate text-orange"></i>
+                        Generate certificates
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">
-                        <i class="ni ni-key-25 text-info"></i> Send certificates 
+                    <i class="fas fa-envelope text-info"></i>
+                         Send certificates 
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">
-                        <i class="ni ni-circle-08 text-pink"></i> Update ME
+                    <i class="fas fa-pen text-red"></i>
+                        Update ME
                     </a>
                 </li>
                
